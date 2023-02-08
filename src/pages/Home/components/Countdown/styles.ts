@@ -15,9 +15,18 @@ export const CountdownContainer = styled.div`
 `
 export const Separator = styled.div`
   padding: 2rem 0;
-  color: ${(props) => props.theme['green-500']};
+  color: ${(props) => props.theme['cyan-600']};
   width: 4rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
+`
+export const MediaQueries = styled.div`
+  @media (max-width: 390px) {
+    width: 1rem;
+    gap: 0.5rem;
+    align-items: center;
+    margin-left: -22rem;
+    font-size: 11px;
+  }
 `
